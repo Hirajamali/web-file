@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌐 CoreTech Innovations – Official Website</title>
+</head>
+<style>
+    #head{
+        width: 100%;
+        height: 70px;
+         background-color: white;
+         box-shadow: 4px;
+        align-items: center;
+         position: fixed;
+         text-align: center;
+  }
+    .header{
+        border: 1px solid;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+       color: white;
+        text-align: right;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+   
+    }
+    
+    a{
+        margin-top: 0.0px;
+        margin-left: 100px;
+        margin-right: 40px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    a:hover{
+     color: black;
+    }
+   .services {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 22%;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-15px);
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.foot{
+    border: 1px solid;
+    height: 400px;
+    margin-top: 200px;
+    box-shadow: 0px 12px 30px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  .parfoot{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+   
+  }
+/* Tablet View */
+@media (max-width: 992px) {
+  nav a {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .card {
+    width: 45%;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .foot {
+    margin-top: 100px;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 480px) {
+  nav a {
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+</style>
+<body>
+  <header id="head">
+    <h1><span style="color: black;">Core</span><span style="color: blue;">Tech</span></h1>
+  </header>
+    <header class="header">
+        <img src="img/coretech.jpg  " alt="#" style="width: 8%; height: 90px;margin-top: 0.0; margin-left: 10px;">
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Team.html">Team</a>
+            <a href="Contact.html">Contact</a>
+
+       </nav>
+        
+    </header>
+    
+    <section class="Services">
+        <h1 style="text-align: center;">Our Services</h1>
+    <div class="container">
+        <div class="card">
+            <img src="codingimg.jpg" alt="web Development" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+        <h2 style="text-align: center;">Web Development</h2>
+         <p>We build fast, secure, and user-friendly websites that bring your business online effectively.
+            We design and develop modern, responsive, and high-performing websites
+            that deliver exceptional user experiences. From front-end aesthetics to back-end functionality,
+            our team ensures your online presence is secure, scalable, and impactful. At CoreTech Innovations,
+            we turn your ideas into interactive digital platforms that drive engagement and business growth.</p>
+          <li>Responsive Design</li>
+          <li>CMS Integration</li>
+          <li>E-commerce Solutions</li>
+          <li>Performance Optimization</li>
+        </div>
+         <div class="card">
+      <img src="tecnologe image.jpg" alt="AI Solutions" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+      <h2 style="text-align: center;"> AI Solutions</h2>
+      <p>Our AI-powered solutions help organizations work smarter, not harder. 
+        We develop intelligent systems that automate tasks, analyze data efficiently, and enhance decision-making.
+         From chatbots and predictive analytics to machine learning applications, 
+         CoreTech Innovations brings artificial intelligence into everyday business processes for a competitive edge.</p>
+    </div>
+        <div class="card">
+      <img src="graphic.webp" alt="Graphic Design" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+      <h2 style="text-align: center;">Graphic Design</h2>
+      <p style="font-size: medium;">Creative and professional designs that strengthen your brand identity and attract customers.
+        At CoreTech, creativity meets technology. Our design experts craft visually appealing graphics
+        that communicate your brand’s story with clarity and style.
+        Whether it’s logos, banners, UI/UX, or full branding packages we design visuals that inspire trust,
+        attract attention, and create a lasting impression on your audience.
+      </p>
+    </div>
+    <div class="card">
+      <img src="project.webp" alt="Project Management" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+      <h2 style="text-align: center;">Project Management</h2>
+      <p>Delivering excellence through precision and planning — that’s what we stand for.
+         Our project management services ensure that every task, deadline, and milestone is
+         handled with care and professionalism. With strong coordination, transparent communication, 
+         and proven methodologies, we help you achieve your goals on time and within budget.</p>
+    </div>
+     <div class="card">
+      <img src="edditing.jpg" alt="Video Editing" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+      <h2 style="text-align: center;">Video Editing</h2>
+      <p style="font-size: medium;">At CoreTech Innovations, we transform raw footage into stunning,
+         high-quality videos that tell your story with impact.
+         Our expert editors combine creativity, precision, and advanced tools to craft visually engaging content for brands,
+        businesses, and creators. Whether it’s promotional videos, corporate projects, or social media reels, 
+        we ensure every frame reflects perfection,
+         emotion, and purpose — turning your vision into a cinematic experience.
+      </p>
+    </div>
+     <div class="card">
+      <img src="marketing.jpg" alt="Digital Marketing" style="width: 90%; height: 200px; align-items: center; margin-left: 20px;">
+      <h2 style="text-align: center;">Digital Marketing</h2>
+      <p style="font-size: medium;">At CoreTech Innovations, we help brands grow and connect with their audiences through smart digital marketing strategies.
+        From SEO and social media campaigns to content creation and online advertising,
+        we ensure your business gets noticed where it matters most. Our goal is to boost your brand visibility
+        attract the right audience, and turn engagement into lasting success — driving measurable growth in the digital world.
+      </p>
+    </div>
+    </div>
+    </section>
+       <footer class="foot">
+    <div class="parfoot">
+    <h3>Contact Details...</h3>
+ <p>Location: Shaheed Benazir Abad(NawabShah)</p>
+<p>Call us: 0306343589</p>
+<p> Gmail: coretech@gmail.com</p>
+<p>Social Links:
+ <br>
+ <br>
+ <br>
+ <img src="facbook.png" alt="facebook" style="width: 4%; height: 50px;">
+<img src="instagram.jpg" alt="instagram" style="width: 4%; height: 50px;">
+<img src="tiktok.webp" alt="tiktok" style="width: 4%; height: 50px;">
+<p>© 2025 My Website. All rights reserved.</p>
+<br>
+</div>
+   </footer>
+</body>
+</html>
